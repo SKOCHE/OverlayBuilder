@@ -1,0 +1,49 @@
+{
+  "ru.sberdevices.app.setup": {
+    "enterAccountMode": false
+  },
+  "ru.sberdevices.services": {
+    "appsStarterConfig": {
+      "appsList": [],
+      "startDelayMs": 94608000
+    },
+    "expirationOtaLimitSec": 94608000,
+    "isUncriticalUpdateEnabled": false,
+    "skipAndUpdateOnSuw": {
+      "enabled": false
+    },
+    "installNonCriticalUpdateOnFirstSetup": false,
+    "forceShowUpdateStepsEnabled": false,
+    "firmwareUpdateEnabled": false,
+    "firmwareUpdateCheckEnabled": false,
+    "systemUpdateEnabled": false,
+    "checkForUpdatesAtBoot": false,
+    "autoUpdateEnabled": false,
+    "updateCheckIntervalSec": 94608000,
+    "updateDownloadEnabled": false,
+    "updateInstallEnabled": false,
+    "userUpdateControl": false,
+    "ignoreSteps": ["check_update", "update", "onboarding"]
+  },
+  "ru.sberdevices.smarthome": {
+    "smarthomeEnabled": false
+  },
+  "ru.sberdevices.specialwidgets": {
+    "customizableWidgetConfig": {
+      "enabled": false
+    }
+  },
+  "ru.sberdevices.starcalls": {
+    "analytics": {
+      "enabled": false
+    }
+  },
+  "smartapp": {
+    "allowInstallExternalApks": false,
+    "appsToDownload": [],
+    "autoUpdateMaxTimerSec": 315360000,
+    "autoUpdateMinTimerSec": 315360000
+  },
+  "bashScriptsDisabled": true,
+  "update": {}
+}
